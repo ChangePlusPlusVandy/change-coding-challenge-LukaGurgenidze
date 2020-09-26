@@ -1,0 +1,117 @@
+body{
+    background-color: darkgrey;
+}
+#container{
+    width: 750px;
+    height: 600px;
+    margin: 10px auto;
+    background-color: #91ceed;
+    border-radius: 20px;
+    border-bottom: 6px solid #3f4291;
+}
+
+#start{
+    position: relative;
+    margin: 15px 0px 0px 330px;
+    align-content: center;
+    height: 45px;
+    width: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #4a2ae8;
+    color: #e0ff19;
+    border-radius: 10px;
+    border: 2px solid #4a2ae8;
+    padding: none;
+}
+
+#score{
+    position: relative;
+    margin: 20px 10px 0px 0px;
+    float: right;
+    height: 30px;
+    width: 130px;
+    background-color: #e0ff19;
+    border-radius: 10px;
+    text-align:center;
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow:0px 4px 0px #4a2ae8;
+}
+
+#display{
+    margin:  15px auto;
+    width: 500px;
+    height: 400px;
+    background-color: #f40add;
+    border-radius: 20px;
+    border-bottom: 5px solid #8e18a9;
+    text-align: center;
+    padding-top: 1px;
+}
+
+#instruction{
+    position: relative;
+    margin: 5px auto;
+    width: 500px;
+    height: 40px;
+    background-color: #8e18a9;
+    border-radius: 20px;
+    border-bottom: 4px solid #f40add;
+    font-size: 30px;
+    text-align: center;
+    color: #e0ff19;
+}
+
+
+#result{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 175px;
+    background-color: #ffbf00;
+    width: 400px;
+    height: 300px;
+    font-size: 50px;
+    text-align: center;
+    top: 50px;
+    border-bottom:  4px solid #8e18a9;
+    border-radius: 30px;
+    padding-top: 0px;
+    font-family: sans-serif;
+    color: #ff0000;
+    visibility: hidden;
+}
+
+#over{
+    margin: 0px 0px;
+    padding-top: 80px;
+    font-weight: bold;
+}
+
+#finalScore{
+    font-size:40px;
+}
+
+.tweetFrame {
+    margin: auto;
+    margin-top: 15px;
+  width: 90%;
+  height: 100px;
+  font-size: 18px;
+  background-color: #00ffc4db;
+  color: black;
+  font-weight: bold;
+  border-style: outset;
+  border-radius: 10px;
+  border-width: 7px;
+  border-color: yellow;
+padding-top: 20px;
+    
+}
+
+.face {
+    display: inline-block;
+    border: solid 4px yellow;
+    margin: 50px 10px 10px 10px;
+}
+
